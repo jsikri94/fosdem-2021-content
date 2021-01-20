@@ -10,7 +10,9 @@ The fundamental core data structure provided by YottaDB is key-value tuples.
 Following is a set of key-value tuples:
 
 > ["Capital","Blegium","Brussels"]
+>
 > ["Capital","Thailand","Bangkok"]
+>
 > ["Capital","USA","Washington, DC"]
 
 Each of the above tuples is called a `node`.
@@ -22,10 +24,15 @@ YottaDB itself assigns no meaning to the data in each node. But using meaningful
 For example:
 
 > ["Capital","Belgium","Brussels"]
+>
 > ["Capital","Thailand","Bangkok"]
+>
 > ["Capital","USA","Washington, DC"]
+>
 > ["Population","Belgium",1367000]
+>
 > ["Population","Thailand",8414000]
+>
 > ["Population","USA",325737000]
 
 As YottaDB assigns no inherent meaning to the keys or values, its key value structure lends itself to implementing Variety.
@@ -33,14 +40,23 @@ As YottaDB assigns no inherent meaning to the keys or values, its key value stru
 For example, if an application wishes to add historical census results under “Population”, the following is a perfectly valid set of tuples:
 
 > ["Capital","Belgium","Brussels"]
+>
 > ["Capital","Thailand","Bangkok"]
+>
 > ["Capital","USA","Washington, DC"]
+>
 > ["Population","Belgium",1367000]
+>
 > ["Population","Thailand",8414000]
+>
 > ["Population","USA",325737000]
+>
 > ["Population","USA",17900802,3929326]
+>
 > ["Population","USA",18000804,5308483]
+>
 > …
+>
 > ["Population","USA",20100401,308745538]
 
 In the above example, the application designer has chosen to represent date in the form `yyyymmdd`.
@@ -53,11 +69,17 @@ The set of all nodes under a variable and a leading set of its subscripts is cal
 With this representation, the Population tree can be written as follows:
 
 > Population("Belgium")=1367000
+>
 > Population("Thailand")=8414000
+>
 > Population("USA")=325737000
+>
 > Population("USA",17900802)=3929326
+>
 > Population("USA",18000804)=5308483
+>
 > …
+>
 > Population("USA",20100401)=308745538
 
 And visualized thus:

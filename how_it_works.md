@@ -3,7 +3,9 @@ title: "How It Works"
 draft: true
 ---
 
-# Data Structure: Key-Value Tuples
+# How It Works
+
+## Data Structure: Key-Value Tuples
 
 The fundamental core data structure provided by YottaDB is key-value tuples.
 
@@ -86,12 +88,12 @@ And visualized thus:
 
 ![Population Tree Visualization](/stands/yottadb/population-tree-viz.png)
 
-# Persistence
+## Persistence
 
 In YottaDB, persistence is a property of a variable, visible in the variable name. Prefixing a variable name with a caret(^) makes its data persist beyond the lifetime of a process.
 
 Shared, persistent nodes in a database are called global variable nodes. Nodes that are private to a process with the lifetime of the process are called local variable nodes.
 
-# Transaction Processing
+## Transaction Processing
 
 YottaDB implements transactions with strong Atomic, Consistent, Isolated, Durable ([ACID](https://en.wikipedia.org/wiki/ACID)) properties.

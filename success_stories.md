@@ -15,7 +15,7 @@ YottaDB’s performance and scalability allows GSB to process all 60 million acc
 
 ## Electronic Health Solutions (EHS)
 
-![EHS logo](stands/yottadb/EHS_logo.jpg)
+![EHS logo](stands/yottadb/EHS_logo.svg)
 
 YottaDB is providing EHS the mission-critical YottaDB Support Services for EHS’ Hakeem Database Software. YottaDB’s performance and scalability allows Hakeem to process the medical records of patients in Jordan on systems that must be available wherever and whenever patients need care, i.e., across the entire country, with 24×7 availability.
 

@@ -7,7 +7,7 @@ description: "YottaDB is a language-agnostic hierarchical key-value database tha
   \ based access for reporting and analytics with read-write access support coming\
   \ in 2021. All our work is 100% free / open source."
 layout: stand
-logo: stands/yottadb/YottaDB_logo.svg
+logo: stands/yottadb/logo.png
 new_this_year: Since FOSDEM 2020, we have added production grade support for JDBC
   / SQL-92 access to the database for analytics and reporting, as well as production
   grade support for access from the Rust language. We have made numerous smaller enhancements

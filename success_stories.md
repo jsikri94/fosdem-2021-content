@@ -5,6 +5,12 @@ draft: true
 
 # Success Stories
 
+## University of Antwerp Library
+
+![UoAntwerp logo](stands/yottadb/UoAntwerp_logo.jpg)
+
+YottaDB/GT.M powers The University of Antwerp Library catalog, which includes 3.7 million copies of 2.4 million titles, and delivers fast response times and reliable access to users around the world.
+
 ## Government Savings Bank
 
 ![GSB logo](stands/yottadb/GSB_logo.jpg)
@@ -23,11 +29,7 @@ YottaDB is providing EHS the mission-critical YottaDB Support Services for EHS�
 
 ![Oroville logo](stands/yottadb/Oroville_logo.jpg)
 
-YottaDB supports Oroville Hospital’s VistA EHR implementation, running on the highly available and secure YottaDB/GT.M platform.
+YottaDB supports Oroville Hospital’s VistA EHR implementation, running on the highly available and secure database engine.
 
-## University of Antwerp Library
 
-![UoAntwerp logo](stands/yottadb/UoAntwerp_logo.jpg)
-
-YottaDB/GT.M powers the The University of Antwerp Library catalog, which includes 3.7 million copies of 2.4 million titles, and delivers fast response times and reliable access to users around the world.
 

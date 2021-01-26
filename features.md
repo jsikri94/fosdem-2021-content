@@ -13,7 +13,14 @@ YottaDB’s business continuity and real-time replication features keep even Int
 
 ## Daemon-less
 
-The YottaDB architecture places a premium on speed and responsiveness with a daemon-less, in-memory database engine, streamlining workloads by minimizing latency and parsimoniously using system resources.
+YottaDB operates using a daemon-less engine. Why?
+
+ - With a daemon, failure of a daemon process stalls the operation of multiple processes and perhaps even multiple applications.
+ - With a daemon, a daemon process typically has to operate with elevated privileges compared to an application process, and furthermore the link between application and daemon must be secured.
+ - Communication between application logic and a database daemon adds latency and increases response times.
+ - A daemon is an additional process that consumes system resources, even if only an incremental amount.
+
+[Learn More](/stands/yottadb/in_memory_engine)
 
 ## Security
 

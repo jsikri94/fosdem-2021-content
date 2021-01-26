@@ -1,6 +1,6 @@
 ---
 title: "How It Works"
-draft: true
+draft: false
 ---
 
 # How It Works

@@ -1,6 +1,6 @@
 ---
 title: "Optimistic Concurrency Control"
-draft: true
+draft: false
 ---
 
 # Optimistic Concurrency Control

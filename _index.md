@@ -14,12 +14,19 @@ new_this_year: Since FOSDEM 2020, we have added production grade support for JDB
   such as simpler installation, enhanced troubleshooting tools, performance enhancements,
   and of course (like every software project) bug fixes.
 showcase: Based on a mature code base (in daily production use since 1986, but continuously
-  invested in and evolving since), YottaDB is a hierarchical key-value database on
-  which all common NoSQL and SQL user cases map well. Its robustness, scalability
+  invested in and evolving since), YottaDB is a language-agnostic hierarchical key-value
+  database on which all common NoSQL and SQL user cases map well. Its robustness, scalability
   and security are demonstrated by the fact that it is the database of record for
   some of the largest real-time core-banking applications in the world, as well as
   a nation scale electronic health record system. In Belgium, it is the database of
   record for the University of Antwerp library system!
+
+  Learn More about YottaDB:
+   - [Features](stands/yottadb/features)
+   - [How It Works?](stands/yottadb/how_it_works)
+   - [Use Cases](stands/yottadb/use_cases)
+   - [Success Stories](stands/yottadb/success_stories)
+   
 themes:
 - Database engines
 title: YottaDB

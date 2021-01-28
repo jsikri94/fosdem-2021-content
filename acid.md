@@ -19,7 +19,7 @@ Consider that application logic executing concurrently with an update to busines
 
 **Consistency** is the property that the database should never be observable in a state that is inconsistent (the process of course sees its own data that it is manipulating in a transient state).
 
-**Isolation** is the property that each transaction execute and commit as if it were the only transaction active on the system. For example, if the money transfer transaction commits before the transaction that updates business rules.
+**Isolation** is the property that each transaction executes and commits as if it were the only transaction active on the system. For example, from the point of view of the database state change, the money-transfer commits either before or after the business rules update, even if the logic for both executes concurrently.
 
 There is a duality between Consistency and Isolation -- as a practical matter, it is not possible to provide strong Consistency without strong Isolation and vice versa. YottaDB provides strong Consistency and Isolation. Strict [Serializability](https://en.wikipedia.org/wiki/Serializability) implies strong Consistency and Isolation, and vice versa.
 

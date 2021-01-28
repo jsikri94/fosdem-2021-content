@@ -21,9 +21,9 @@ new_this_year: |
   </p>
 showcase: |
   <p>
-    Based on a mature code base (in daily production use since 1986, but continuously
+    Based on a mature code base (in daily production use since 1986; continuously
     invested in and evolving since), YottaDB is a language-agnostic hierarchical key-value
-    database on which all common NoSQL and SQL user cases map well. Its robustness, scalability
+    database to which all common NoSQL and SQL use cases map well. Its robustness, scalability
     and security are demonstrated by the fact that it is the database of record for
     some of the largest real-time core-banking applications in the world, as well as
     a nation scale electronic health record system. In Belgium, it is the database of

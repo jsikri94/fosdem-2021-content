@@ -9,7 +9,7 @@ draft: false
 
 {{< figure src="/stands/yottadb/UoAntwerp_logo.jpg" alt="UoAntwerp Logo" width="50%" height="50%">}}
 
-YottaDB/GT.M powers The University of Antwerp Library catalog, which includes 3.7 million copies of 2.4 million titles, and delivers fast response times and reliable access to users around the world.
+YottaDB powers The University of Antwerp Library catalog, which includes 3.7 million copies of 2.4 million titles, and delivers fast response times and reliable access to users around the world.
 
 ## Government Savings Bank
 

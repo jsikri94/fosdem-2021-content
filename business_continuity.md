@@ -5,7 +5,7 @@ draft: false
 
 # Business Continuity
 
-While Durability is based on recovering application state from persistent non-volatile storage, business continuity of an application requires recovery of application state even in the face of loss of that non-volatile storage, e.g., the unplanned loss of a data center or a geography. Furthermore, in the event of unplanned loss of a data center or a geography, a mission critical application should continue to be available from another data center.
+While Durability is based on recovering application state from persistent non-volatile storage, business continuity of an application requires recovery of application state even in the face of loss of that non-volatile storage, e.g., the unplanned loss of a data center or a geography. In the event of unplanned loss of a data center or a geography, a mission critical application should continue to be available from another data center.
 
 YottaDB achieves business continuity with real-time replication. Transactions are processed on a single instance for serialization performance (serialization is slower when it the decision making required for strict serialization is distributed over multiple instances). As journal records are written to journal files, those updates are streamed in real time to as many as 16 secondary instances. Each of those 16 secondary instances can stream the updates it receives in real time to 16 more instances (for up to 256 tertiary instances), and so on, without any limit imposed by YottaDB.
 
@@ -18,7 +18,7 @@ The operation of the primary instance that originates updates is unaffected by t
 ---
 **NOTE**
 
-With n instances, it is possible to provide business continuity in the face of at most n-1 unplanned outages. Since the number of instances is always a finite number, absolute business continuity does not exist, and the number of instances is a business decision rather than a technical decision resulting from a YottaDB limit.
+With n instances, it is possible to provide business continuity in the face of at most n-1 unplanned outages. Since the number of instances is always a finite number, absolute business continuity does not exist, and the number of instances becomes a business decision rather than a technical decision resulting from a YottaDB limit.
 
 ---
 

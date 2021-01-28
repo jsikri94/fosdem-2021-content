@@ -28,7 +28,7 @@ With a philosophy that complexity is the enemy of security, the simply-explained
 
 ## Multi-Language Database Access
 
-![YottaDB architecture](/stands/yottadb/multi-lang-db-access.svg)
+{{< figure src="/stands/yottadb/multi-lang-db-access.svg" width="50%" height="50%">}}
 
 While the historic roots of YottaDB are in the M/MUMPS language, YottaDB extends the tight integration of the language with the database to other languages. As C is the lingua franca of programming languages (in that all programming languages have the ability to call a C API), YottaDB’s C language API extends the database engine to all programming languages. In the future, YottaDB LLC intends to create standard bindings from other languages through the C API.
 

@@ -32,10 +32,10 @@ showcase: |
   <br>
   <h3>Learn More about YottaDB:</h3>
     <ul>
-      <li><a href="stands/yottadb/features">Features</a></li>
-      <li><a href="stands/yottadb/how_it_works">How It Works?</a></li>
-      <li><a href="stands/yottadb/use_cases">Use Cases</a></li>
-      <li><a href="stands/yottadb/success_stories">Success Stories</a></li>
+      <li><a href="/stands/yottadb/features">Features</a></li>
+      <li><a href="/stands/yottadb/how_it_works">How It Works?</a></li>
+      <li><a href="/stands/yottadb/use_cases">Use Cases</a></li>
+      <li><a href="/stands/yottadb/success_stories">Success Stories</a></li>
     </ul>
 themes:
  - Database engines
